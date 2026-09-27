@@ -1,0 +1,40 @@
+# Datasets & Large Data Files
+*.tsv
+*.csv
+*.parquet
+dataset
+dataset/
+**/dataset
+**/dataset/
+student_resource/dataset/
+
+# Model checkpoints & large weights
+*.pt
+*.pth
+*.bin
+*.onnx
+*.pkl
+*.joblib
+*.h5
+
+# Caches & generated outputs
+cache/
+**/cache/
+output/*
+!output/.gitkeep
+submission/
+portable/
+
+# Python / Jupyter / Environments
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS / Editor files
+.DS_Store
+**/.DS_Store
+.vscode/
+.idea/
